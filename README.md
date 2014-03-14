@@ -11,7 +11,7 @@ Installing
 Like all node.js modules, just use npm!
 
 ```
-npm install rssparser
+npm install rssparser2
 ```
 
 Usage
@@ -20,7 +20,7 @@ Usage
 Using rss parser is easy, just call:
 
 ```
-var parser = require('rssparser');
+var parser = require('rssparser2');
 var options = {};
 //rss feeds
 parser.parseURL('http://laymansite.com/feed', options, function(err, out){
